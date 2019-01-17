@@ -25,7 +25,7 @@ public class Student {
 	 * Konsolenausgabe der wichtigsten Attribute
 	 */
 	public void ausgeben() {
-		System.out.println(name + " / " + studiengang);
+		System.out.println(name + " / " + studiengang + " / " + gebJahr);
 	}
 
 	
