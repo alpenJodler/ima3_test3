@@ -29,7 +29,7 @@ public class Student {
 	}
 
 	public int getAlter() {
-		return 0;
+		return (2019-gebJahr);
 	}
 	
 	public static void main(String[] args) {

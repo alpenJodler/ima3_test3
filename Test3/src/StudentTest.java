@@ -7,7 +7,7 @@ public class StudentTest {
 	@Test
 	public void testAlter() {
 		Student s1 = new Student("Susi", 2000, "IMA");
-		//Test Alter Korrekt
+		assertEquals("Alter berechnen", 19, s1.getAlter()); //Test Alter Korrekt
 	}
 
 }
