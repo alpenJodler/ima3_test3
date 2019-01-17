@@ -28,6 +28,9 @@ public class Student {
 		System.out.println(name + " / " + studiengang + " / " + gebJahr);
 	}
 
+	public int getAlter() {
+		return 0;
+	}
 	
 	public static void main(String[] args) {
 		Student s1 = new Student("Susi", 1998, "IMA");
